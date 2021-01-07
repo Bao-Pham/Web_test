@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<title>Đồ án cuối kỳ</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/fonts.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
@@ -21,7 +21,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 </div>
 <!-- Header -->
 <header class="w3-display-container w3-content" style="max-width:1500px;">
-  <img class="w3-image" src="/w3images/hotel.jpg" alt="The Hotel" style="min-width:1000px" width="1500" height="800">
+  <img class="w3-image" src="/w3images/" alt="The Hotel" style="min-width:1000px" width="1500" height="800">
   <div class="w3-display-left w3-padding w3-col l6 m8">
     <div class="w3-container w3-red">
       <h2><i class="fa fa-bed w3-margin-right"></i>Hotel Name</h2>
@@ -31,11 +31,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
         <div class="w3-row-padding" style="margin:0 -16px;">
           <div class="w3-half w3-margin-bottom">
             <label><i class="fa fa-calendar-o"></i> Check In</label>
-            <input class="w3-input w3-border" type="date" placeholder="DD MM YYYY" name="CheckIn" required>
+            <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY" name="CheckIn" required>
           </div>
           <div class="w3-half">
             <label><i class="fa fa-calendar-o"></i> Check Out</label>
-            <input class="w3-input w3-border" type="date" placeholder="DD MM YYYY" name="CheckOut" required>
+            <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY" name="CheckOut" required>
           </div>
         </div>
         <div class="w3-row-padding" style="margin:8px -16px;">
@@ -65,11 +65,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="w3-row-padding">
     <div class="w3-col m3">
       <label><i class="fa fa-calendar-o"></i> Check In</label>
-      <input class="w3-input w3-border" type="date" placeholder="DD MM YYYY">
+      <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY">
     </div>
     <div class="w3-col m3">
       <label><i class="fa fa-calendar-o"></i> Check Out</label>
-      <input class="w3-input w3-border" type="date" placeholder="DD MM YYYY">
+      <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY">
     </div>
     <div class="w3-col m2">
       <label><i class="fa fa-male"></i> Adults</label>
@@ -85,10 +85,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     </div>
   </div>
 
-  <div class="w3-row-padding w3-padding-16">
-    <div class="w3-third w3-margin-bottom">
-      <img src="/w3images/room_single.jpg" alt="Norway" style="width:100%">
-      <div class="w3-container w3-white">
+  <div>
+    <div>
+      <img src="/w3_images/hotel.jpg" alt="Norway" style="width:100%">
+      <div>
         <h3>Single Room</h3>
         <h6 class="w3-opacity">From $99</h6>
         <p>Single bed</p>
@@ -134,8 +134,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   </div>
   
   <div class="w3-row-padding w3-large w3-center" style="margin:32px 0">
-    <div class="w3-third"><i class="fa fa-map-marker w3-text-red"></i> 115 Thich Quang Duc, Xuan An, Long Khanh, Dong Nai, Viet Nam</div>
-    <div class="w3-third"><i class="fa fa-phone w3-text-red"></i> Phone: +84 96 375 16 78</div>
+    <div class="w3-third"><i class="fa fa-map-marker w3-text-red"></i> 423 Some adr, Chicago, US</div>
+    <div class="w3-third"><i class="fa fa-phone w3-text-red"></i> Phone: +00 151515</div>
     <div class="w3-third"><i class="fa fa-envelope w3-text-red"></i> Email: mail@mail.com</div>
   </div>
 
@@ -198,8 +198,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="w3-container" id="contact">
     <h2>Contact</h2>
     <p>If you have any questions, do not hesitate to ask them.</p>
-    <i class="fa fa-map-marker w3-text-red" style="width:30px"></i> Long Khanh, Viet Nam<br>
-    <i class="fa fa-phone w3-text-red" style="width:30px"></i> Phone: +84 96 375 16 78<br>
+    <i class="fa fa-map-marker w3-text-red" style="width:30px"></i> Chicago, US<br>
+    <i class="fa fa-phone w3-text-red" style="width:30px"></i> Phone: +00 151515<br>
     <i class="fa fa-envelope w3-text-red" style="width:30px"> </i> Email: mail@mail.com<br>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
@@ -229,7 +229,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 <!-- Add Google Maps -->
 <script>
 function myMap() {
-  myCenter=new google.maps.LatLng(10.926073792456483, 107.25261305718121);
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
   var mapOptions= {
     center:myCenter,
     zoom:12, scrollwheel: false, draggable: false,
