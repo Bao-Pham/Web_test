@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Đăng nhập</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../Web_test/css/form.css" />
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td colspan="2"><h1>Đăng nhập</h1></td>
+        </tr>
+        <tr>
+          <td>
+              Tên người dùng
+          </td>
+          <td>
+            <input type="text" id="txtten">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mật khẩu
+          </td>
+          <td>
+            <input type="password" id="txtmk">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="button" id="nut" value="Đăng nhập" onclick="thongbao.innerHTML='Chào mừng bạn '+ txtten.value + ' đến với Khách sạn Hoàng gia'">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label id="thongbao"></label>
+          </td>
+            <a href="../Web_test/website.html"> Quay về trang chủ </a>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
